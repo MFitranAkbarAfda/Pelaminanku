@@ -25,7 +25,7 @@ export default function Features() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="font-headline text-4xl font-bold md:text-5xl">
-            Kenapa Memilih NikahYuk?
+            Kenapa Memilih Pelaminanku?
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
             Kami membantu mewujudkan pernikahan impian Anda menjadi kenyataan.

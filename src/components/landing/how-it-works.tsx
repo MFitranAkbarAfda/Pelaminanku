@@ -26,7 +26,7 @@ export default function HowItWorks() {
             Cara Kerjanya
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Sangat mudah untuk merencanakan pernikahan atau menjadi vendor di NikahYuk.
+            Sangat mudah untuk merencanakan pernikahan atau menjadi vendor di Pelaminanku.
           </p>
         </div>
         <Tabs defaultValue="buyer" className="mt-12 w-full">

@@ -35,7 +35,7 @@ export default function Header() {
         <Link href="/" className="flex items-center gap-2">
           <Heart className="h-8 w-8 text-primary" />
           <span className="text-2xl font-bold font-headline text-foreground">
-            NikahYuk
+            Pelaminanku
           </span>
         </Link>
         <nav className="hidden items-center gap-6 md:flex">

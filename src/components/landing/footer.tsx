@@ -22,7 +22,7 @@ export default function Footer() {
             <Link href="/" className="flex items-center gap-2">
               <Heart className="h-8 w-8 text-primary" />
               <span className="text-2xl font-bold font-headline text-foreground">
-                NikahYuk
+                Pelaminanku
               </span>
             </Link>
             <p className="text-muted-foreground text-sm">
@@ -67,7 +67,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 border-t pt-8 text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} NikahYuk. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Pelaminanku. All rights reserved.</p>
         </div>
       </div>
     </footer>
