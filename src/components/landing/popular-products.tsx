@@ -13,8 +13,9 @@ const popularProducts = [
   { name: "Venue", image: "https://placehold.co/400x500.png", hint: "wedding venue" },
   { name: "Katering", image: "https://placehold.co/400x500.png", hint: "wedding catering" },
   { name: "Dekorasi & Bunga", image: "https://placehold.co/400x500.png", hint: "wedding decoration" },
-  { name: "Foto & Video", image: "https://placehold.co/400x500.png", hint: "wedding photographer" },
+  { name: "Fotografer & Videografer", image: "https://placehold.co/400x500.png", hint: "wedding photographer" },
   { name: "Gaun & Jas", image: "https://placehold.co/400x500.png", hint: "wedding dress" },
+  { name: "Kue Pernikahan", image: "https://placehold.co/400x500.png", hint: "wedding cake" },
 ];
 
 export default function PopularProducts() {
