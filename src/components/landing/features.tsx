@@ -1,21 +1,21 @@
 import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
-import { ShoppingCart, Lock, Truck } from "lucide-react";
+import { Search, Sparkles, CalendarCheck } from "lucide-react";
 
 const featuresData = [
   {
-    icon: <ShoppingCart className="h-10 w-10 text-primary" />,
-    title: "Mudah Digunakan",
-    description: "Jelajahi ribuan pilihan kue dengan antarmuka yang intuitif dan ramah pengguna."
+    icon: <Search className="h-10 w-10 text-primary" />,
+    title: "Vendor Terlengkap",
+    description: "Temukan ribuan vendor pernikahan, mulai dari WO, MUA, hingga katering terbaik."
   },
   {
-    icon: <Lock className="h-10 w-10 text-primary" />,
-    title: "Pembayaran Aman",
-    description: "Transaksi terjamin aman dengan berbagai metode pembayaran terpercaya."
+    icon: <Sparkles className="h-10 w-10 text-primary" />,
+    title: "Perencanaan Mudah",
+    description: "Atur semua kebutuhan pernikahan Anda dalam satu platform yang intuitif dan cerdas."
   },
   {
-    icon: <Truck className="h-10 w-10 text-primary" />,
-    title: "Pengiriman Cepat",
-    description: "Dapatkan kue favorit Anda diantar tepat waktu dengan opsi pengiriman terjadwal."
+    icon: <CalendarCheck className="h-10 w-10 text-primary" />,
+    title: "Transaksi Aman",
+    description: "Proses booking dan pembayaran vendor terjamin aman dan terpercaya."
   }
 ];
 
@@ -25,10 +25,10 @@ export default function Features() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="font-headline text-4xl font-bold md:text-5xl">
-            Kenapa Memilih CakeVerse?
+            Kenapa Memilih NikahYuk?
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Kami menyediakan platform terbaik untuk pecinta dan penjual kue di seluruh Indonesia.
+            Kami membantu mewujudkan pernikahan impian Anda menjadi kenyataan.
           </p>
         </div>
         <div className="mt-16 grid gap-8 md:grid-cols-3">

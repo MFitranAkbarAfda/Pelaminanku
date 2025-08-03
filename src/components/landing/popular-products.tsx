@@ -9,12 +9,12 @@ import {
 } from "@/components/ui/carousel";
 
 const popularProducts = [
-  { name: "Kue Ulang Tahun", image: "https://placehold.co/400x500.png", hint: "birthday cake" },
-  { name: "Cupcake", image: "https://placehold.co/400x500.png", hint: "cupcakes" },
-  { name: "Kue Kering", image: "https://placehold.co/400x500.png", hint: "cookies" },
-  { name: "Donat", image: "https://placehold.co/400x500.png", hint: "donuts" },
-  { name: "Cheesecake", image: "https://placehold.co/400x500.png", hint: "cheesecake" },
-  { name: "Roti", image: "https://placehold.co/400x500.png", hint: "bread" },
+  { name: "Wedding Organizer", image: "https://placehold.co/400x500.png", hint: "wedding planner" },
+  { name: "Venue", image: "https://placehold.co/400x500.png", hint: "wedding venue" },
+  { name: "Katering", image: "https://placehold.co/400x500.png", hint: "wedding catering" },
+  { name: "Dekorasi & Bunga", image: "https://placehold.co/400x500.png", hint: "wedding decoration" },
+  { name: "Foto & Video", image: "https://placehold.co/400x500.png", hint: "wedding photographer" },
+  { name: "Gaun & Jas", image: "https://placehold.co/400x500.png", hint: "wedding dress" },
 ];
 
 export default function PopularProducts() {
@@ -23,10 +23,10 @@ export default function PopularProducts() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="font-headline text-4xl font-bold md:text-5xl">
-            Kategori Terpopuler
+            Kategori Vendor Populer
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Temukan jenis kue yang paling dicari oleh pelanggan kami.
+            Temukan vendor terbaik untuk setiap kebutuhan di hari spesial Anda.
           </p>
         </div>
         <Carousel

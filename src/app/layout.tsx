@@ -3,8 +3,8 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: 'CakeVerse',
-  description: 'Marketplace Kue No.1 di Indonesia',
+  title: 'NikahYuk',
+  description: 'Marketplace Pernikahan Impianmu',
 };
 
 export default function RootLayout({

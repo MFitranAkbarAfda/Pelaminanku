@@ -1,6 +1,6 @@
 import type { SVGProps } from 'react';
 import Link from "next/link";
-import { CakeSlice, Instagram, Send } from "lucide-react";
+import { Heart, Instagram, Send } from "lucide-react";
 
 const TikTokIcon = (props: SVGProps<SVGSVGElement>) => (
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}>
@@ -20,13 +20,13 @@ export default function Footer() {
         <div className="grid gap-8 md:grid-cols-3">
           <div className="flex flex-col gap-2">
             <Link href="/" className="flex items-center gap-2">
-              <CakeSlice className="h-8 w-8 text-primary" />
+              <Heart className="h-8 w-8 text-primary" />
               <span className="text-2xl font-bold font-headline text-foreground">
-                CakeVerse
+                NikahYuk
               </span>
             </Link>
             <p className="text-muted-foreground text-sm">
-                Platform marketplace kue terlezat di Indonesia.
+                Wujudkan pernikahan impianmu bersama kami.
             </p>
             <div className="mt-4 flex gap-4">
                 <Link href="#" aria-label="Instagram">
@@ -46,8 +46,8 @@ export default function Footer() {
               <ul className="mt-4 space-y-2">
                 <li><Link href="#home" className="text-sm text-muted-foreground hover:text-foreground">Home</Link></li>
                 <li><Link href="#features" className="text-sm text-muted-foreground hover:text-foreground">Tentang</Link></li>
-                <li><Link href="#products" className="text-sm text-muted-foreground hover:text-foreground">Kategori</Link></li>
-                <li><Link href="#join" className="text-sm text-muted-foreground hover:text-foreground">Jadi Seller</Link></li>
+                <li><Link href="#products" className="text-sm text-muted-foreground hover:text-foreground">Vendor</Link></li>
+                <li><Link href="#join" className="text-sm text-muted-foreground hover:text-foreground">Jadi Vendor</Link></li>
               </ul>
             </div>
             <div>
@@ -67,7 +67,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 border-t pt-8 text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} CakeVerse. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} NikahYuk. All rights reserved.</p>
         </div>
       </div>
     </footer>

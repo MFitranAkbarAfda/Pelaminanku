@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import { CakeSlice, Menu, X } from "lucide-react";
+import { Heart, Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
@@ -20,8 +20,8 @@ export default function Header() {
 
   const navLinks = [
     { href: "#home", label: "Home" },
-    { href: "#features", label: "Tentang Kami" },
-    { href: "#products", label: "Toko Kue" },
+    { href: "#features", label: "Tentang" },
+    { href: "#products", label: "Vendor" },
   ];
 
   return (
@@ -33,9 +33,9 @@ export default function Header() {
     >
       <div className="container mx-auto flex h-20 items-center justify-between px-4 md:px-6">
         <Link href="/" className="flex items-center gap-2">
-          <CakeSlice className="h-8 w-8 text-primary" />
+          <Heart className="h-8 w-8 text-primary" />
           <span className="text-2xl font-bold font-headline text-foreground">
-            CakeVerse
+            NikahYuk
           </span>
         </Link>
         <nav className="hidden items-center gap-6 md:flex">
@@ -52,7 +52,7 @@ export default function Header() {
         <div className="hidden items-center gap-2 md:flex">
           <Button variant="ghost">Masuk</Button>
           <Button asChild>
-            <Link href="#join">Jadi Seller</Link>
+            <Link href="#join">Jadi Vendor</Link>
           </Button>
         </div>
         <div className="md:hidden">
@@ -84,7 +84,7 @@ export default function Header() {
                 className="text-lg font-medium text-muted-foreground transition-colors hover:text-foreground"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Jadi Seller
+                Jadi Vendor
               </Link>
             <div className="mt-4 flex w-full flex-col gap-2">
               <Button variant="ghost" className="w-full">Masuk</Button>

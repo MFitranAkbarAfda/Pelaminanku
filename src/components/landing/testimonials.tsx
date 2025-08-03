@@ -3,24 +3,24 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const testimonials = [
   {
-    name: "Aulia",
+    name: "Rina & Doni",
     avatar: "https://placehold.co/100x100.png",
-    hint: "woman smiling",
-    comment: "Pesan kue ulang tahun untuk anakku jadi gampang banget! Pilihannya banyak dan kuenya enak. Recommended!",
+    hint: "happy couple",
+    comment: "NikahYuk bikin persiapan nikahan jadi gampang banget! Nemu WO dan vendor lain tanpa ribet. Semuanya profesional!",
     position: "self-start",
   },
   {
-    name: "Budi Santoso",
+    name: "Adelia (Adel Decoration)",
     avatar: "https://placehold.co/100x100.png",
-    hint: "man portrait",
-    comment: "Sebagai seller, platform ini sangat membantu jangkauan pasar saya. Omzet meningkat sejak gabung di sini.",
+    hint: "florist smiling",
+    comment: "Sejak join NikahYuk, bisnis dekorasi saya makin dikenal. Banyak klien baru yang saya dapat dari platform ini. Mantap!",
     position: "self-end",
   },
   {
-    name: "Citra Lestari",
+    name: "Bimo & Sarah",
     avatar: "https://placehold.co/100x100.png",
-    hint: "woman portrait",
-    comment: "Suka banget sama fitur pengiriman terjadwal. Kue datang tepat waktu untuk acara spesial saya. Terima kasih CakeVerse!",
+    hint: "couple portrait",
+    comment: "Fitur checklist dan budget plannernya sangat membantu kami yang awam. Pernikahan kami berjalan lancar. Terima kasih NikahYuk!",
     position: "self-start",
   },
 ];
@@ -34,7 +34,7 @@ export default function Testimonials() {
             Apa Kata Mereka?
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Dengarkan cerita dari para pelanggan dan mitra seller kami yang puas.
+            Dengarkan cerita dari para pasangan bahagia dan vendor sukses kami.
           </p>
         </div>
         <div className="mt-16 mx-auto max-w-4xl space-y-8">
