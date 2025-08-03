@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> bc4ece16c0f25eda231fa9b327080cbcd570c534
 "use client";
 
 import React, { useState, useEffect } from "react";
@@ -49,12 +52,15 @@ export default function Header() {
               {link.label}
             </Link>
           ))}
+<<<<<<< HEAD
            <Link
               href="/dashboard"
               className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
             >
               Dashboard
             </Link>
+=======
+>>>>>>> bc4ece16c0f25eda231fa9b327080cbcd570c534
         </nav>
         <div className="hidden items-center gap-2 md:flex">
           <Button variant="ghost">Masuk</Button>
@@ -87,6 +93,7 @@ export default function Header() {
               </Link>
             ))}
              <Link
+<<<<<<< HEAD
                 href="/dashboard"
                 className="text-lg font-medium text-muted-foreground transition-colors hover:text-foreground"
                 onClick={() => setIsMenuOpen(false)}
@@ -94,6 +101,8 @@ export default function Header() {
                 Dashboard
               </Link>
              <Link
+=======
+>>>>>>> bc4ece16c0f25eda231fa9b327080cbcd570c534
                 href="#join"
                 className="text-lg font-medium text-muted-foreground transition-colors hover:text-foreground"
                 onClick={() => setIsMenuOpen(false)}
