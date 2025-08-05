@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <section id="home" className="relative h-screen w-full">
       <Image
-        src="https://placehold.co/1920x1080.png"
+        src="/image/banner/wedding.png"
         alt="A beautiful wedding reception setup"
         fill
         className="object-cover"
